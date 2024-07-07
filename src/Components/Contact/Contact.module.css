@@ -1,0 +1,185 @@
+ @import '../../vars.css';
+
+ .container {
+     color: var(--color-text);
+     display: flex;
+     /* justify-content: space-around; */
+     /* align-items: center; */
+     padding: 40px;
+     background-color: rgb(16, 15, 31);
+     margin-top: 60px;
+ }
+
+ .content {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     /* gap: 30px;  */
+     gap: 90px;
+     width: 100%;
+     max-width: 1200px;
+     margin-left: 7.3%;
+
+ }
+
+ .content h2 {
+     font-size: 17px;
+     /* color: #00334d; */
+     font-weight: 700;
+ }
+
+ /* 
+ .links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+} */
+
+ /* .link{
+    margin-left: 30px;
+} */
+
+ .sourceLinks h2,
+ li {
+     margin-bottom: 10px;
+ }
+
+ .sourceLink {
+     display: flex;
+     gap: 15px;
+ }
+
+ .sourceLink a {
+     color: var(--color-text);
+     font-size: 16px;
+     font-weight: 400;
+     font-family: 'outfit', Arial, Helvetica, sans-serif;
+ }
+
+ .quickLink h2 {
+     margin-bottom: 10px;
+ }
+
+ .quickLink a {
+     color: var(--color-text);
+     font-size: 14px;
+     font-weight: 400;
+     font-family: 'outfit', Arial, Helvetica, sans-serif;
+ }
+
+ .quickLink a:hover {
+     text-decoration: underline;
+     color: var(--color-secondary);
+ }
+
+ .contact h2,
+ p {
+     margin-bottom: 10px;
+ }
+
+ .contact p {
+     color: var(--color-text);
+     font-size: 14px;
+     font-weight: 400;
+     font-family: 'outfit', Arial, Helvetica, sans-serif;
+     cursor: pointer;
+ }
+
+
+
+ .socialLinks h2 {
+     margin-bottom: 10px;
+ }
+
+
+ .link {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+ }
+
+ .link a {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     color: #fff;
+ }
+
+ .githubIcon {
+
+     background-color: #333;
+
+
+ }
+
+ .githubIcon a {
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .vercelIcon {
+
+     background-color: black;
+
+ }
+
+ .herokuIcon {
+
+     background-color: rgb(23, 23, 23);
+
+ }
+
+ .facebookIcon {
+
+     background-color: #3B5999;
+
+ }
+
+ .instagramIcon {
+
+     background-color: red;
+
+ }
+
+ .linkedinIcon {
+     background-color: #0077B4;
+ }
+
+ .twitterIcon {
+     background-color: black;
+ }
+
+ .whatsappIcon {
+     background-color: #00FF3B;
+ }
+
+ /* rgb(23,23,23) */
+ /* .contactLogo .quickLinks h1, .links h2, .tex h2, .socialLinks h2 {
+    margin-bottom: 10px;
+} */
+ /* .quickLinks h1, .links h2, .tex h2, .socialLinks h2 {
+    margin-bottom: 10px;
+} */
+
+ /* .links ul, .socialLinks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li, .socialLinks li {
+    margin: 5px 0;
+}
+
+.links a, .socialLinks a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.links a:hover, .socialLinks a:hover {
+    text-decoration: underline;
+} */

@@ -1,0 +1,26 @@
+[
+    {
+      "role": "Frontend Developer",
+      "organisation": "Scatterbrain",
+      "startDate": "Jul, 2023",
+      "endDate": "Present",
+      "experiences": ["UI Development", "UI Design","Api Integration"],
+      "imageSrc": "history/scatterbrain.png"
+    },
+    {
+      "role": "Frontend Developer",
+      "organisation": "Dhaatri Naturals Pvt. Ltd.",
+      "startDate": "Oct, 2022",
+      "endDate": "Jun, 2023",
+      "experiences": ["UI Development", "UI Design","Api Integration"],
+      "imageSrc": "history/dhaatri_naturals_logo.png"
+    },
+    {
+      "role": "React.js Developer",
+      "organisation": "Wikiance",
+      "startDate": "Sep, 2021",
+      "endDate": "Sep, 2022",
+      "experiences": ["UI Development", "UI Design","Api Integration"],
+      "imageSrc": "history/wikiance-circle.png"
+    }
+  ]
