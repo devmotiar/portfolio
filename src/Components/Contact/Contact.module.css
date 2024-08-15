@@ -158,28 +158,24 @@
      background-color: #00FF3B;
  }
 
- /* rgb(23,23,23) */
- /* .contactLogo .quickLinks h1, .links h2, .tex h2, .socialLinks h2 {
-    margin-bottom: 10px;
-} */
- /* .quickLinks h1, .links h2, .tex h2, .socialLinks h2 {
-    margin-bottom: 10px;
-} */
+ @media screen and (max-width:520px) {
+     .content {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         gap: 20px;
 
- /* .links ul, .socialLinks ul {
-    list-style-type: none;
-    padding: 0;
-}
+     }
 
-.links li, .socialLinks li {
-    margin: 5px 0;
-}
+     .content h2 {
+         font-size: 20px;
+     }
 
-.links a, .socialLinks a {
-    text-decoration: none;
-    color: #007bff;
-}
+     .contact p {
+         font-size: 18px;
+     }
 
-.links a:hover, .socialLinks a:hover {
-    text-decoration: underline;
-} */
+     .quickLink a {
+         font-size: 18px;
+     }
+
+ }

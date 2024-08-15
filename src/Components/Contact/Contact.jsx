@@ -56,16 +56,16 @@ const Contact = () => {
                         <ul className={styles.sourceLink}>
                             <li className={styles.link}>
 
-                                <a href="https://github.com/rahaman96" className={styles.facebookIcon}> <FaFacebookF /></a>
+                                <a href="https://www.facebook.com/share/3v7Ka4sPJFzLaHN6/?mibextid=qi2Omg" className={styles.facebookIcon}> <FaFacebookF /></a>
 
 
                             </li>
                             <li className={styles.link}>
 
-                                <a href="https://vercel.com/motiar-rahamans-projects" className={styles.instagramIcon}> <FaInstagram /></a>
+                                <a href="https://www.instagram.com/?hl=en" className={styles.instagramIcon}> <FaInstagram /></a>
                             </li>
                             <li className={styles.link}>
-                                <a href="" className={styles.linkedinIcon}> <FaLinkedinIn /></a>
+                                <a href="https://www.linkedin.com/in/motiar-rahaman-b840b6233/" className={styles.linkedinIcon}> <FaLinkedinIn /></a>
                             </li>
                             <li className={styles.link}>
 

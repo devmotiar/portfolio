@@ -9,7 +9,7 @@ const Projects = () => {
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
@@ -35,7 +35,7 @@ const Projects = () => {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 520,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
